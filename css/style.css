@@ -339,3 +339,57 @@ body {
 .offer-item:hover h2, .offer-item:hover .icon {
     color: #2697D6;
 }
+
+/* Choose Us Section */
+.choose-us-container {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+.choose-us-parent {
+    margin: 130px;
+}
+.choose-us-text, .choose-us-image {
+    float: left;
+    width: 50%;
+}
+.choose-us-image {
+    padding-left: 180px;
+    text-align: center;
+}
+.icon-info {
+    padding-top: 25px;
+    color: #4CC9FE;
+}
+.choose-us-heading {
+    text-transform: capitalize;
+    font-size: 40px;
+}
+.choose-us-divider {
+    width: 75px;
+    border: 2px solid #4CC9FE;
+    margin-top: 10px;
+}
+.choose-us-description {
+    color: rgb(204, 204, 204);
+    padding-top: 40px;
+}
+.choose-us-list-ul {
+    list-style: none;
+    padding-top: 30px;
+}
+.choose-us-list-ul li {
+    margin-bottom: 15px;
+    color: rgb(154, 154, 154);
+}
+.choose-us-bullet li {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin: 10px 5px;
+    display: inline-block;
+    background-color: rgb(154, 154, 154);
+}
+.choose-us-bullet li:hover, .choose-us-bullet li.active {
+    background-color: #4CC9FE;
+}
