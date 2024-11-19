@@ -172,10 +172,10 @@ body {
     border: 1px solid #4CC9FE;
     border-radius: 10px;
 }
-.feature-card .icon, .feature-title, .feature-description, .feature-link {
+.feature-icon, .feature-title, .feature-description, .feature-link {
     padding-top: 20px;
 }
-.feature-card .icon {
+.feature-icon {
     font-size: 30px;
     color: #4CC9FE;
 }
@@ -187,7 +187,7 @@ body {
     display: block;
     color: #4CC9FE;
 }
-.feature-card:hover .feature-link, .feature-card:hover .icon {
+.feature-card:hover .feature-link, .feature-card:hover .feature-icon {
     color: #2697D6;
 }
 .feature-card:hover .feature-title {
