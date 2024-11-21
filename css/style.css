@@ -393,3 +393,41 @@ body {
 .choose-us-bullet li:hover, .choose-us-bullet li.active {
     background-color: #4CC9FE;
 }
+
+/* Achievements Section */
+.achievements-section {
+    position: relative;
+    width: 100%;
+    height: 60%;
+    background-image: url(../images/achievements.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.achievements-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow: auto;
+}
+.achievements-items {
+    margin: auto;
+    padding-top: 150px;
+    width: 75%;
+}
+.achievement-item {
+    float: left;
+    width: 240px;
+    margin-right: 20px;
+    text-align: center;
+}
+.achievement-icon {
+    color: #4CC9FE;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+.achievement-title, .achievement-text {
+    color: #fff;
+}
