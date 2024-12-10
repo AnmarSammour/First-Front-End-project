@@ -89,6 +89,8 @@ This project is an HTML and CSS-based task designed to create a responsive and v
 ---
 
 ## **Preview**
+   - You can view a preview of the project below:
+
 [Watch the video](https://github.com/user-attachments/assets/2814e32c-14ff-4c81-87e7-61d7ef58438c)
 
 
