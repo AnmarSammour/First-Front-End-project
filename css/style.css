@@ -50,7 +50,7 @@ body {
 .navbar-header li a {
     position: relative;
     text-decoration: none;
-    color: #000;
+    color: #fff;
     padding-bottom: 5px;
 }
 .navbar-header li a:after {
@@ -227,6 +227,9 @@ body {
     height: 100%;
     background-color: rgba(76, 201, 254, 0.3);
     overflow: auto;
+}
+.featured-works .section-title {
+    margin-top: 40px;
 }
 .work-item {
     position: relative;
@@ -568,7 +571,7 @@ body {
     color: #fff;
 }
 .about-member-info span {
-    color: #ff0000;
+    color: #4CC9FE;
     font-size: 24px;
 }
 .team-title {
@@ -639,7 +642,7 @@ body {
     border-radius: 10px;
 }
 .team-member:hover .team-member-name {
-    color: #ff0000;
+    color: #767676;
 }
 .team-member:hover .team-member-role {
     color: #000000;
@@ -712,7 +715,7 @@ body {
     transition: .5s;
 }
 .staff-member:hover h3 {
-    color: #ff0000;
+    color: #767676;
 }
 .staff-member:hover .staff-info ul {
     color: rgb(0, 42, 255);
